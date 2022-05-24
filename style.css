@@ -1,0 +1,168 @@
+#main2 {
+    margin: 0px;
+    padding: 5px;
+}
+
+.section1 {
+    background: #fbf7ed;
+}
+
+.section2 {
+    background: hsl(170, 100%, 15%);
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 60px;
+}
+
+.section3 {
+    padding: 50px 100px;
+    text-align: center;
+    padding: 80px;
+}
+
+.bring_business {
+    padding: 50px;
+}
+
+.take_the {
+    padding: 50px;
+}
+
+.start_on {
+    padding: 20px;
+}
+
+.foot {
+    background: hsl(170, 100%, 15%);
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+* {
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.form1 {
+    text-align: center;
+    margin: 100px;
+}
+
+.form1 h2 {
+    color: white;
+}
+
+#popup {
+    background: #212326;
+}
+
+.trialForm {
+    margin: 0;
+    padding: 8px 0; 
+}
+
+#logoButton {
+    padding: 0;
+}
+
+#mainNav {
+    font-size: 1.15em;
+    margin-top: 9px;
+}
+
+#mainNav1 {
+    margin: 0 0;
+    padding: 5px 0;
+    padding-left: 80px;
+}
+
+.navbar-nav > li{
+    margin-left:5px;
+    margin-right:5px;
+  }
+
+
+#mainbar2 {
+    padding: 10px; 
+    font-size: 1.1em;
+}
+
+#mainbar3 {
+    margin: 10px;
+    background-color: #008060;
+    border-color: #008060;
+}
+
+
+.navPart2 {
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 80px;
+
+}
+
+.box1 {
+    padding: 55px;
+}
+
+.term_condition {
+    margin-top: 35px;
+    font-size: 0.8em;
+}
+
+#million {
+    font-size: 1.12em;
+    margin-top: 25px;
+}
+
+#form1 {
+    padding: 10px 160px;
+    padding-left: 3px;
+    border-radius: 3px;
+}
+
+#button1 {
+    padding: 10px 129px;
+    background-color: #008060;
+    border-color: #008060;
+}
+
+#thePlatform {
+    font-size: 50px;
+    line-height: 60px;
+    color: hsl(170, 100%, 15%);
+}
+
+#foot {
+    color: white;
+}
+
+.foot {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.line {
+    margin: 0;
+}
+
+#buttonBottom {
+    padding: 10px 35px;
+    background-color: #008060;
+    border-color: #008060;
+}
+
+#create {
+    color: white;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+::placeholder {
+    font-size: 15px;
+  }

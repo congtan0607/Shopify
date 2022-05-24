@@ -1,0 +1,13 @@
+#products{
+    position: absolute;
+    left: 200px;
+    margin: 20px;
+}
+
+#card1{
+    text-align: center;
+}
+
+.card-body{
+    margin-top: 80px;
+}

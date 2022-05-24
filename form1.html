@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form1_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+      <div class="whole">
+        <div class="form2">
+            <p id="p1">Step 1 of 2</p>
+            <h2 id="h2">Tell us a little about yourself</h2>
+            <p id="p2">We’ll help you get started based on your responses</p>
+        </div>
+        <form action="#" class="inform2">
+
+            <label for="question">Are you already selling?</label> <br>
+            <select name="question" id="question1" > 
+                <option value="default">Please choose one...</option>
+                <option value="q1">I'm just playing around</option>
+                <option value="q2">I'm not selling products yet</option>
+                <option value="q3">I'm selling, just not online</option>
+                <option value="q4">I'm sell with a different sysytem</option>
+            </select>
+            <br><br>
+
+            <label for="question">What is your current revenue?</label> <br>
+            <select name="question" id="question2" > 
+                <option value="default">Please choose one...</option>
+                <option value="q1">RM 0</option>
+                <option value="q2">Up to RM 5000</option>
+                <option value="q3">RM 5000 to RM 50000</option>
+                <option value="q4">RM 50001 to RM 250000</option>
+                <option value="q5">RM 250001 to RM 1000000</option>
+                <option value="q6">RM 1000000++</option>
+            </select>
+            <br><br>
+
+            <label for="question">Which industry will you be operating in?</label> <br>
+            <select name="question" id="question3" > 
+                <option value="default">Please choose one...</option>
+                <option value="q1">Beauty</option>
+                <option value="q2">Clothing</option>
+                <option value="q3">Electronics</option>
+                <option value="q4">Furniture</option>
+                <option value="q5">Handcrafts</option>
+                <option value="q6">Other</option>
+            </select>
+
+            <br><br>
+            <hr class="line">
+    
+            <div class="skipnext">
+                <button type="button" id="skip"><a class="nav-link" href="/form2.html" id="Skip"><b>Skip</b></a></b></button> &nbsp;&nbsp;
+                <button type="button" href="/form2.html" id="next"><b><a class="nav-link" href="/form2.html" id="Next"><b>Next</b></a></b></button>
+            </div>
+            <a class="nav-link" href="/main.html" id="back"><b>< Back</b></a>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

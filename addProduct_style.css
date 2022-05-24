@@ -1,0 +1,9 @@
+#products{
+    position: absolute;
+    left: 180px;
+    margin: 20px;
+}
+
+.card{
+    border-width: 3px;
+}

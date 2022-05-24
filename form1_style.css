@@ -1,0 +1,96 @@
+* {
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.form2 h2,p{
+    text-align: center;
+}
+
+.form2 {
+    padding: 20px;
+} 
+
+.inform2 {
+    margin-top: 40px;
+    padding: 20px 450px;
+}
+
+.skipnext {
+    text-align: right;
+
+}
+
+#next {
+    padding: 10px 35px;
+    background-color: #008060;
+    border-width: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.05em;
+}
+
+#skip {
+    padding: 7px 32px;
+    background-color: white;
+    border-color: rgb(191, 191, 191);
+    border-width: 2px;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.05em;
+}
+
+#p1 {
+    margin: 5px;
+    font-size: 12px;
+}
+
+#h2 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+#p2 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#question1 {
+    padding: 8px 390px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+
+#question2 {
+    padding: 8px 410px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+
+#question3 {
+    padding: 8px 448px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+
+.whole {
+    margin-top: 70px;
+}
+
+#Next {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    
+}
+
+#Skip {
+    text-decoration: none;
+    color: gray;   
+    padding: 0px;
+}
+
+#back {
+    color: grey;
+    margin: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <!--Boxicons CDN Link-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index_style.css">
+</head>
+
+<body>
+    <div class="sidebar active">
+        <div class="logo_content">
+            <div class="logo">
+                <a class="nav-link active" class="logoButton" aria-current="page" href="main.html">
+                    <img alt="logo" src="/img/btn.png" width=40" height="40">
+                </a>
+                <div class="logo_name"><b>congtan0</b></div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="/index.html">
+                    <i class='bx bx-home' ></i>
+                    <span class="links_name"><b>Home</b></span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="/order.html">
+                    <i class='bx bx-book' ></i>
+                    <span class="links_name"><b>Orders</b></span>
+                </a>
+                <span class="tooltip">Orders</span>
+            </li>
+            <li>
+                <a href="/product.html">
+                    <i class='bx bx-purchase-tag-alt' ></i>
+                    <span class="links_name"><b>Products</b></span>
+                </a>
+                <span class="tooltip">Products</span>
+            </li>
+            <li>
+                <a href="/customer.html">
+                    <i class='bx bx-male-female' ></i>
+                    <span class="links_name"><b>Customers</b></span>
+                </a>
+                <span class="tooltip">Customers</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-analyse' ></i>
+                    <span class="links_name"><b>Analytics</b></span>
+                </a>
+                <span class="tooltip">Analytics</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-target-lock' ></i>
+                    <span class="links_name"><b>Marketing</b></span>
+                </a>
+                <span class="tooltip">Marketing</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-calculator' ></i>
+                    <span class="links_name"><b>Discounts</b></span>
+                </a>
+                <span class="tooltip">Discounts</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-microsoft'></i>
+                    <span class="links_name"><b>Apps</b></span>
+                </a>
+                <span class="tooltip">Apps</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_name"><b>Settings</b></span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="home_content">
+        <div class="text">
+          <div class="inline">
+            <input type="text" class="form-control" placeholder="Search" style="width: 200px;">
+          </div>
+          <div class="inline">
+          <button type="submit" class="btn btn-primary" style="background: #008060; border-color: #008060; color: white; font-size: 14px;">Submit</button>
+          <a href="/main.html"><button type="submit" class="btn btn-primary" style="margin-left: 600px; background: #008060; border-color: #008060; color: white; font-size: 14px;">Log out</button></a>
+          </div>
+    </div>
+
+        <div class="card" style="width: 50rem; margin-top: 90px;">
+            <div class="card-body">
+              <h5 class="card-title">Moving along nicely.</h5>
+              <p class="card-text">Only a few more tasks to go. You got this!</p>
+              <img src="/img/bar.png" alt="bar" width="760px">
+            </div>
+        
+        <hr id="line">
+
+            <div class="card-body" id="part2">
+                <div class="container mt-2" id="part2_1">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-3" id="nav">
+                            <ul class="nav nav-tabs nav flex-column" >
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#product">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8V1z"/>
+                                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                                      </svg>
+                                      </svg> Add product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#domain">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bullseye" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                                        <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+                                        <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                      </svg>
+                                      </svg> Add domain</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#theme">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brush-fill" viewBox="0 0 16 16">
+                                        <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04z"/>
+                                      </svg>
+                                      </svg> Customize theme</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#pages">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+                                        <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                                      </svg>
+                                      </svg> Add pages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#navigation">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                                      </svg>
+                                      </svg> Organize navigation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#logo">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                                      </svg>
+                                      </svg> Create a logo</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-9">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="product">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Add your first product</b></h6>
+                                            <p>
+                                                Add physical items, digital downloads, services, <br>or anything else you dream up.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="/Product.html" id="add_product"><b>Add product</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img/1.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="tab-pane" id="domain">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Strengthen your brand with a custom domain</b></h6>
+                                            <p>
+                                                Your current domain is <br>congtan0.myshopify.com but you can add a <br>custom domain to help customers find your <br>online store.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="#" id="add_product"><b>Add domain</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img/2.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="tab-pane" id="theme">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Edit the look and feel of your online store</b></h6>
+                                            <p>
+                                                Choose a theme and add your logo, colors, <br>and images to reflect your brand.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="#" id="add_product"><b>Customize theme</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img//3.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="pages">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Add pages to your online store</b></h6>
+                                            <p>
+                                                Share your brand story and build trust with <br>customers. Create pages that describe who <br>you are and how people can contact you.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="#" id="add_product"><b>Add pages</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img/4.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="navigation">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Organize your online store navigation</b></h6>
+                                            <p>
+                                                Help customers to find what they're looking <br>for by organizing the pages on your online <br>store.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="#" id="add_product"><b>Customize navigation</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img/5.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="logo">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-9" id="Add">
+                                            <h6><b>Continue exploring logos</b></h6>
+                                            <p>
+                                                Download high-quality logo files or create a <br>new one on Hatchful.
+                                            </p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="button1">
+                                            <a class="nav-link" href="#" id="add_product"><b>Explore logos</b></a>
+                                          </div>
+                                          <div class="col-3">
+                                            <img src="/img/6.png" alt="" width="120px" height="100px">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 50rem;">
+        <div class="card-header">
+            <b>Verify your email address to keep your account secure</b>
+        </div>
+        <div class="card-body">
+          <p class="card-text">A verification email has been sent to congtan0@gmail.com. Follow the link in the verification email <br> to confirm that you can access your email account.</p>
+          <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Resend verification email</b></a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 50rem;">
+        <div class="card-header">
+            <b>Get to know Shopify with guided video tutorials</b>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Keep learning with new and upcoming videos by subscribing to the Shopify Help Center YouTube <br> Channel.</p>
+          <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Explore YouTube channel</b></a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 50rem;">
+        <div class="card-header">
+            <b>Linkpop, the new link in bio tool from Shopify</b>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Linkpop is the link in bio tool from Shopify that transforms your social profiles into sales opportunities. <br> Add shoppable links to your customizable Linkpop page and start selling today.
+          </p>
+          <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Use Linkpop for free</b></a>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="width: 50rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/7.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Personalize your communications with customer segmentation</h5>
+              <p class="card-text">With segmentation, it's easier to create and manage groups of <br>customers so you can deliver the right message, to the right people, at <br>the right time to drive sales.</p>
+              <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Explore segmentation</b></a> 
+              <br><br>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="width: 50rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/8.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">8 strategies for finding product ideas – Part 1</h5>
+              <p class="card-text">Here’s a short video about how to come up with product ideas for your <br>business. You’ll learn how to use customer passions or pain points as a <br>way of inspiring your brand.</p>
+              <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Learn more about selling online</b></a>
+              <br><br>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="width: 50rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/9.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Shopify Compass: get started on Shopify</h5>
+              <p class="card-text">Free, 1-on-1 Shopify training to help you get setup and selling in minutes.</p>
+              <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Learn more</b></a>
+              <br><br>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 50rem;">
+        <div class="card-header">
+            <b>Tipping at checkout is now available for your online store</b>
+        </div>
+        <div class="card-body">
+          <p class="card-text">With tipping at checkout, your customers have the option to tip a percentage of their total order or  <br> custom amount.
+          </p>
+          <a href="#" class="btn btn-primary" style="background: white; border-color: #d1d1d1; color: black; font-size: 14px;"><b>Add online tipping</b></a>
+        </div>
+    </div><br><br>
+
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }    
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+</body>
+</html>
